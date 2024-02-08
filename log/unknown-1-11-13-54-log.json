@@ -1,0 +1,20 @@
+{
+    "source": "./infoflow.js",
+    "start": 1704952430976,
+    "end": 1704952444112,
+    "firstHit": "-1",
+    "undefinedMap": {},
+    "done": [
+        {
+            "id": 0,
+            "input": {
+                "_bound": 0
+            },
+            "stringifiedPC": "",
+            "foundGagdet": false,
+            "alternatives": [],
+            "helperPool": [],
+            "time": 13118
+        }
+    ]
+}

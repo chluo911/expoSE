@@ -1,0 +1,96 @@
+{
+    "source": "test.js",
+    "start": 1703926618195,
+    "end": 1703926632407,
+    "firstHit": "-1",
+    "undefinedMap": {
+        "{\"_bound\":0,\"symbol_t\":\"unknown\"}": [
+            "symbol"
+        ]
+    },
+    "done": [
+        {
+            "id": 0,
+            "input": {
+                "_bound": 0,
+                "symbol_t": "unknown"
+            },
+            "stringifiedPC": "",
+            "foundGagdet": false,
+            "alternatives": [
+                {
+                    "input": {
+                        "symbol_t": "string",
+                        "_bound": 1
+                    },
+                    "pc": "",
+                    "forkIid": 209,
+                    "forinLoad": false,
+                    "forinKeys": []
+                },
+                {
+                    "input": {
+                        "symbol_t": "object",
+                        "_bound": 1
+                    },
+                    "pc": "",
+                    "forkIid": 209,
+                    "forinLoad": false,
+                    "forinKeys": []
+                },
+                {
+                    "input": {
+                        "symbol_t": "array_string",
+                        "_bound": 1
+                    },
+                    "pc": "",
+                    "forkIid": 209,
+                    "forinLoad": false,
+                    "forinKeys": []
+                }
+            ],
+            "helperPool": [],
+            "time": 6608
+        },
+        {
+            "id": 2,
+            "input": {
+                "symbol_t": "object",
+                "_bound": 1
+            },
+            "stringifiedPC": "(= symbol_t \"object\")",
+            "foundGagdet": false,
+            "alternatives": [],
+            "helperPool": [],
+            "time": 7282
+        },
+        {
+            "id": 3,
+            "input": {
+                "symbol_t": "array_string",
+                "_bound": 1,
+                "symbol": [
+                    "seed_string"
+                ]
+            },
+            "stringifiedPC": "(= symbol_t \"array_string\"),(>= symbol_Array_Length 0)",
+            "foundGagdet": false,
+            "alternatives": [],
+            "helperPool": [],
+            "time": 7315
+        },
+        {
+            "id": 1,
+            "input": {
+                "symbol_t": "string",
+                "_bound": 1,
+                "symbol": "seed_string"
+            },
+            "stringifiedPC": "(= symbol_t \"string\")",
+            "foundGagdet": false,
+            "alternatives": [],
+            "helperPool": [],
+            "time": 7597
+        }
+    ]
+}

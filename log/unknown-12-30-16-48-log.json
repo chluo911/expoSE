@@ -1,0 +1,19 @@
+{
+    "source": "test.js",
+    "start": 1703926098047,
+    "end": 1703926098982,
+    "firstHit": "-1",
+    "undefinedMap": {},
+    "done": [
+        {
+            "id": 0,
+            "input": {
+                "_bound": 0
+            },
+            "foundGagdet": false,
+            "alternatives": [],
+            "helperPool": [],
+            "time": 925
+        }
+    ]
+}
